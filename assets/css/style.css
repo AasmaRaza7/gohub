@@ -1,0 +1,67 @@
+:root
+{
+    --primaryColor:#6f42c1;
+    --primaryColorDark:#5e38a4;
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#header
+{
+    background-image: url('../images/banner.png'), url('../images/2.png');
+    background-position: top right, top left;
+    background-size:auto;
+    height: 120vh;
+    background-repeat: no-repeat;
+}
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary
+{
+    background-color: var(--primaryColor) !important;
+    border-color: var(--primaryColor) !important;
+}
+.btn-primary:hover
+{
+    background-color: var(--primaryColorDark) !important;
+    border-color: var(--primaryColorDark) !important;
+}
+
+#section3, #section2, #section4, #section5, #section6
+{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.w-60
+{
+    width:50%;
+}
+
+#section7
+{
+    background-color: rgb(242, 242, 242);
+}
+#footer
+{
+    background-color: rgb(35, 31, 66);
+}
+.text-200 {
+    color: #f2f2f2 !important;
+}
+.fs--1 {
+    font-size: .75rem !important;
+}
+.text-500 {
+    color: #949494 !important;
+}
+.py-7
+{
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+/*
+.col-6
+{
+    border:1px solid blue;
+} */
